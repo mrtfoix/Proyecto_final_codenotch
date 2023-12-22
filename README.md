@@ -5,3 +5,5 @@ Una vez realizado el análisis se plantea un modelo de machine learning para det
 Hemos separado el set de datos en dos subsets (train y test), de manera que el los datos "train" van de 01/07/2015 a 30/06/2017 y los datos "test" de 01/07/2017 a 31/08/2017. 
 Se ha utilizado el subset "train" (previmente balanceado) para entrenar un algoritmo de clasificacion XGBoost, obteniendo un "accuracy score" de 0.71 en el set de datos 'test'. 
 Finalmente, se ha realizado una aplicacion de streamlit (https://proyectofinalcodenotch-rc4bliyewbxxghpwbuzdgh.streamlit.app/) en la que se visualizan los datos mediante PowerBI y se pueden realizar inferencias para el modelo de machine learning. 
+
+Rafael Castro Gálvez y Martí Foix Pérez
