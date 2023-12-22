@@ -1,0 +1,32 @@
+tempmax --> Temperatura maxima (ºC)
+tempmin --> Temperatura minima (ºC)	
+temp --> Temperatura media (ºC)
+dew --> Punto de rocío (ºC)
+precip --> Precipitacion (mm)
+precipprob --> Probabilidad de precipitacion (%)
+precipcover --> Parte de la region que experimenta precipitacion (%)
+preciptype --> Tipo de precipitacion (Los dias sin precipitacion son NaNs, no los podemos eliminar)
+snow --> Nieve (cm) (Todas son 0)
+snowdepth --> Profundidad de la nieve (cm)
+windspeed --> Velocidad del viento (kph)
+windgust --> Ráfagas de viento (kph)
+winddir --> Direccion del viento (º)
+visibility --> Visibilidad (km)
+cloudcover --> Proporcion de cielo cubierto (%)
+humidity --> humedad relativa (%)
+pressure --> Presion a nivel del mar (mb)
+solarradiation --> Radiacion solar (W/m^2)
+solarenergy --> Energia solar (MJ/m^2)
+uvindex --> Indice UV
+severerisk --> Riesgo severo (no hay datos)
+sunrise --> Amanecer (hora)
+sunset --> Atardecer (hora)
+moonphase --> Fase lunar
+icon --> icono del tiempo
+conditions --> Texto corto respecto al tiempo
+description --> Breve descripcion
+stations --> lista de estaciones meteorologicas
+
+
+
+

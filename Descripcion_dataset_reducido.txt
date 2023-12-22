@@ -1,0 +1,55 @@
+hotel ---> Hotel ciudad en Lisboa o resort en Algarve
+is_canceled --> 1: reserva cancelada, 0: no cancelada
+lead_time --> Dias entre la entrada de la reserva y llegada
+arrival_date_year --> año de llegada
+arrival_date_month --> mes de llegada
+arrival_date_week_number --> Numero de semana del año para la fecha de llegada
+arrival_date_day_of_month --> Dia del mes de llegada
+stays_in_weekend_nights --> Numero de noches de fin de semana reservadas
+stays_in_week_nights --> Numer de noches entre semana reservadas
+adults --> Numero de adultos
+children --> Numero de niños
+babies --> Numero de bebes
+meal --> Tipo de pension reservada:
+			- BB (Bed and Breakfast): Solo desayuno 
+			- HB (Half Board): Media Pension
+			- FB(Full Board): Pension completa
+			- Undefined/SC: Sin comida incluida
+country --> Pais de origen 
+market_segment --> segmento de mercado: 
+			- Online TA (Travel Agency): reservas realizadas a través de agencias de viajes en línea
+			- Offline TA/TO (Travel Agency/Tour Operator): reservas realizadas a través de agencias de viajes tradicionales (offline) o tour operadores.
+			- Groups: reservas de grupo
+			- Direct: reservas realizadas directamente con el hotel
+			- Corporate: reservas relacionadas con viajes corporativos
+			- Complementary: reservas complementarias o adicionales, como servicios adicionales o habitaciones que se reservan junto con una reserva principal.
+			- Aviation: reservas relacionadas con aviacion (acuerdos con aerolinias, alojamiento tripulacion...)
+			- Undefined: no definido
+distribution_channel --> Como se ha realizado la reserva
+			... 
+			- GDS (Global Distribution System): plataformas que permiten la conexión entre diferentes partes de la industria de viajes a nivel mundial.
+is_repeated_guest --> Ya habia reservado antes o no. 1: si, 0: no.
+deposit_type --> Tipo de paga y señal
+days_in_waiting_list --> Dias en lista de espera antes de recibir confirmacion de la reserva
+customer_type --> Tipo de reserva:
+			- Contract: cuando la reserva tiene una asignación u otro tipo de contrato asociado a ella.
+			- Group: cuando la reserva está asociada a un grupo
+			- Transient: cuando la reserva no forma parte de un grupo o contrato, y no está asociada a otras reservas transitorias.
+			- Transient-party: Cuando la reserva es transitoria, pero está asociada al menos con otra reserva transitoria.
+total_of_special_requests --> Numero de requerimientos especiales
+reservation_status_date --> Fecha de la ultima modificacion del estado de la reserva
+
+Dudosas
+
+previous_cancellations --> Numero de cancelaciones previas realizadas por el mismo cliente
+previous_booking_not_canceled --> Numero de reservas no canceladas anteriores por el mismo cliente
+booking_changes --> Numero de cambios en la reserva 
+
+
+
+
+
+
+
+
+
