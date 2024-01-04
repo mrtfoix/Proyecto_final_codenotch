@@ -1,7 +1,7 @@
 from joblib import load
 import pandas as pd
 
-model = load('streamlit/modelos/modelo_proyecto.joblib')
+model = load('modelos/modelo_proyecto.joblib')
 
 def inference1(X):
     y_proba = model.predict_proba([X])[0]
